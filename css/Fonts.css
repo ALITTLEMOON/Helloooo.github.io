@@ -1,0 +1,48 @@
+@font-face {
+		font-family:'字体圈欣意冠黑体';
+		src:url( "../Fonts/Fontquan-XinYiGuanHeiTi 2.0 Regular.otf");
+		font-weight: normal;
+   		font-style: normal;
+}
+
+@font-face {
+		font-family:'HelveticaNeueLTPro63MdEx';
+		src:url( "../Fonts/HelveticaNeueLTProMdEx.otf");
+		font-weight: normal;
+   		font-style: normal;
+}
+
+@font-face {
+		font-family:'HelveticaNeueLTProMd';
+		src:url(../Fonts/HelveticaNeueLTProMd.otf);
+		font-weight: normal;
+   		font-style: normal;
+}
+
+@font-face {
+		font-family:'SourceHanSansCN_Heavy';
+		src:url( "../Fonts/SourceHanSansCN-Heavy.otf");
+		font-weight: normal;
+   		font-style: normal;
+}
+
+@font-face {
+		font-family:'SourceHanSansCN_Normal';
+		src:url( "../Fonts/SourceHanSansCN-Normal.otf");
+		font-weight: normal;
+   		font-style: normal;
+}
+
+@font-face {
+		font-family:'SourceHanSansCN_Light';
+		src:url( "../Fonts/SourceHanSansCN-Light.otf");
+		font-weight: normal;
+   		font-style: normal;
+}
+
+@font-face {
+		font-family:'DIN_BoldItalicAlt';
+		src:url( "../Fonts/DIN-BoldItalicAlt.otf");
+		font-weight: normal;
+   		font-style: normal;
+}

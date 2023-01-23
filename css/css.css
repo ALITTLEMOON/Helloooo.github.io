@@ -1,0 +1,693 @@
+@charset "utf-8";
+@import url("Fonts.css");
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	list-style: none;
+	font-family: "Helvetica"
+}
+
+
+
+
+
+
+/*----------导航栏----------*/
+
+
+
+
+
+
+
+.TOP{
+	position:relative;
+	width: 100%;
+	height: 90px;
+}
+
+.TOP .NAV{
+	width: 1826px;
+	height: 50px;
+	position:absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	background-color: #262626;
+	border-radius: 10px;/*圆角*/
+}
+
+
+
+
+
+
+/*----------LOGO----------*/
+
+
+
+
+
+
+
+.TOP .NAV .NAV_LOGO{
+	width: 240px;
+	height: 50px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.TOP .NAV .NAV_LOGO .TOP_LOGO{
+	width: 150PX;
+	height: 20PX;
+	cursor: pointer;
+	-webkit-user-drag: none;/*图片禁止拖动*/
+}
+
+
+
+
+
+
+/*----------搜索框----------*/
+
+
+
+
+
+
+
+.TOP .NAV .search{
+	width: 206px;
+	height: 50px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.TOP .NAV .search .INVALID{
+	box-sizing: border-box;
+	width: 200px;
+	height: 46px;
+	font-family: "HelveticaNeueLTProMd";
+	user-select: none;/*光标放置无变化*/
+	color: #626262;
+	text-align:left;
+	line-height: 40px;
+	border-radius: 8px;/*圆角*/
+	background-clip: padding-box, border-box;
+	background-origin: padding-box, border-box;
+	background-image: linear-gradient(135deg,#262626,#262626), linear-gradient(135deg,#691F98,#1A45CE,#053BBD,#07C5D5);
+	border: 2px transparent solid;
+}
+
+.TOP .NAV .search .INVALID .INVALID_BOX{
+	margin: -42px 0px 0px 152px;
+	box-sizing: border-box;
+	width: 46px;
+	height: 46px;
+	font-family: "SourceHanSansCN_Light";
+	user-select: none;/*光标放置无变化*/
+	font-size: 25px;
+	color: #EDEDED;
+	text-align: center; 
+	line-height: 40px;
+	cursor: pointer;
+	padding: 0px;
+	border-radius: 8px;/*圆角*/
+	background-clip: padding-box, border-box;
+	background-origin: padding-box, border-box;
+	background-image: linear-gradient(135deg,#262626,#262626), linear-gradient(135deg,#053BBD,#07C5D5);
+	border: 2px transparent solid;
+
+}
+
+
+
+
+
+
+/*----------导航选项----------*/
+
+
+
+
+
+
+
+.TOP .NAV .MENU_BOX{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 50px;
+	background: #262626;
+}
+
+.TOP .NAV .MENU .MENU_BOX li:first-child{
+	margin-left: 350px;
+}
+
+.TOP .NAV .MENU_BOX li{
+	margin-right: 150px;
+    float: left;
+    cursor: pointer;
+	color: #EDEDED;
+	font-family: "HelveticaNeueLTProMd";
+}
+
+
+
+
+
+
+/*----------BANNER位----------*/
+
+
+
+
+
+
+
+.MIDDLE{
+	width: 100%;
+	height: 650px;
+	margin: 75px 0px;
+}
+
+.MIDDLE .BANNER{
+	width: 1640px;
+	height: 650px;
+	margin: 0 auto;
+	
+}
+
+
+
+
+
+
+/*----------文字位----------*/
+
+
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_text{
+	width: 1012px;
+	height: 650px;
+	float: left;
+	box-sizing:border-box;
+	position:relative;
+	user-select: none;/*光标放置无变化*/
+}
+
+.MIDDLE .BANNER .BANNER_text .BANNER_text_theme{
+	font-family: "字体圈欣意冠黑体";
+	font-size: 150px;
+	color: #262626;
+	margin-top: 50px;
+}
+	
+.MIDDLE .BANNER .BANNER_text .BANNER_text_Subtitle{
+	line-height: 80px;
+	font-family: "DIN-BoldItalicAlt";
+	font-size: 32px;
+	color: #262626;
+}	
+	
+.MIDDLE .BANNER .BANNER_text .BANNER_text_Subtitle .I{
+	font-family: "DIN-BoldItalicAlt";
+	font-size: 32px;
+	color: #262626;
+	margin-top: 50px;
+	background: linear-gradient(45deg,#0336BA,#05CFD4);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}	
+	
+.MIDDLE .BANNER .BANNER_text .BANNER_text_Subtitle .II{
+	font-family: "DIN-BoldItalicAlt";
+	font-size: 32px;
+	color: #262626;
+	margin-top: 50px;
+	background: linear-gradient(135deg,#0336BA,#05CFD4);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}		
+
+.MIDDLE .BANNER .BANNER_text .BANNER_text_LOGO{
+	height: 20PX;
+	position:absolute;
+	bottom: 0;
+}
+
+.MIDDLE .BANNER .BANNER_text .BANNER_text_LOGO .BANNER_LOGO{
+	width: 150PX;
+	height: 20PX;
+	-webkit-user-drag: none;/*图片禁止拖动*/
+}
+
+
+
+
+
+/*----------右侧小卡片----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img{
+	width: 628px;
+	height: 650px;
+	float: right;
+	user-select: none;/*光标放置无变化*/
+}
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .IMG_LEFT{
+	width: 308px;
+	height: 650px;
+	float: left;
+}
+
+
+
+
+
+/*----------卡片1----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .ONE{
+	width: 308px;
+	height: 156px;
+	background: #262626;
+	border-radius: 8px;/*圆角*/
+}
+
+.MIDDLE .BANNER .BANNER_img .ONE .ONE_GRADIENT{
+	width: 12px;
+	height: 156px;
+	float: left;
+	background: linear-gradient(45deg,#0336BA,#05CFD4);
+	border-radius: 8px 0px 0px 8px;/*圆角*/
+}
+
+.MIDDLE .BANNER .BANNER_img .ONE .ONE_TEXT{
+	width: 296px;
+	height: 156px;
+	float: right;
+	color: #EDEDED;
+	text-align: center;
+}
+
+.MIDDLE .BANNER .BANNER_img .ONE .ONE_TEXT .ONE_TEXT_FIRST{
+	font-size: 14px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+	margin-top: 50px;
+}
+
+.MIDDLE .BANNER .BANNER_img .ONE .ONE_TEXT .ONE_TEXT_SECOND{
+	font-size: 32px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+
+
+
+
+/*----------卡片2----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .TWO{
+	width: 308px;
+	height: 314px;
+	background: #262626;
+	margin-top: 12px;
+	position: relative;
+	border-radius: 8px;/*圆角*/
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_CIRCULAR{
+	width: 154px;
+	height: 154px;
+	background: linear-gradient(180deg,#0336BA,#262626);
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	border-radius: 50%;/*圆角*/
+	filter: blur(5px);/*高斯模糊*/
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_TEXT{
+	width: 308px;
+	height: 314px;
+	margin: 0px 0px 0px 0px;
+	position:relative;
+	display:block;
+	color: #EDEDED;
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_TEXT_A{
+	position:absolute;
+	top:9px;
+	left:9px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_TEXT_B{
+	position:absolute;
+	top:9px;
+	right:9px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_TEXT_C{
+	position:absolute;
+	left:9px; 
+	bottom:9px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_TEXT_D{
+	position:absolute;
+	right:9px; 
+	bottom:9px;
+}
+
+.MIDDLE .BANNER .BANNER_img .TWO .TWO_TEXT_D .TWO_TEXT_D_IMG{
+	width: 14px;
+	height: 14px;
+	-webkit-user-drag: none;/*图片禁止拖动*/
+}
+
+
+
+
+
+/*----------卡片3----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .THREE{
+	width: 100%;
+	height: 156px;
+	background: #262626;
+	margin-top: 12px;
+	border-radius: 8px;/*圆角*/
+}
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .IMG_RIGHT{
+	width: 308px;
+	height: 650px;
+	float: right;
+}
+
+
+
+
+
+
+/*----------卡片4----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .FOUR{
+	width: 308px;
+	height: 80px;
+	background: #262626;
+	border-radius: 8px;/*圆角*/
+}
+
+
+
+
+
+/*----------卡片5----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .FIVE{
+	width: 308px;
+	height: 156px;
+	background: #262626;
+	margin-top: 12px;
+	border-radius: 8px;/*圆角*/
+}
+
+.MIDDLE .BANNER .BANNER_img .FIVE .FIVE_TEXT{
+	width: 308px;
+	height: 156px;
+	margin: 0px 0px 0px 0px;
+	position:relative;
+	display:block;
+	color: #EDEDED;
+}
+
+.MIDDLE .BANNER .BANNER_img .FIVE .FIVE_TEXT .FIVE_TEXT_A{
+	position:absolute;
+	top:9px;
+	left:9px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .FIVE .FIVE_TEXT .FIVE_TEXT_B{
+	position:absolute;
+	top:9px;
+	right:9px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .FIVE .FIVE_TEXT .FIVE_TEXT_C{
+	position:absolute;
+	left:9px;
+	bottom:9px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .FIVE .FIVE_TEXT .FIVE_TEXT_D{
+	position:absolute;
+	right:9px; 
+	bottom:9px;
+}
+
+
+.MIDDLE .BANNER .BANNER_img .FIVE .FIVE_TEXT .FIVE_TEXT_D .FIVE_TEXT_D_IMG{
+	width: 14px;
+	height: 14px;
+	-webkit-user-drag: none;/*图片禁止拖动*/
+}
+
+
+
+
+
+/*----------卡片6----------*/
+
+
+
+
+
+.MIDDLE .BANNER .BANNER_img .SIX{
+	width: 308px;
+	height: 390px;
+	background: #CACFDD;
+	margin-top: 12px;
+	border-radius: 8px;/*圆角*/
+	color: #262626;
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_IMGBOX{
+	width: 288px;
+	height: 288px;
+	padding: 10px 10px 0px 10px;;
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_IMG{
+	width: 288px;
+	height: 288px;
+	-webkit-user-drag: none;/*图片禁止拖动*/
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_TEXT{
+	width: 308px;
+	height: 91px;
+	position:relative;
+	display:block;
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_TEXT .SIX_TEXT_A{
+	position:absolute;
+	top:10px;
+	left:10px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_TEXT .SIX_TEXT_B{
+	position:absolute;
+	top:10px;
+	right:10px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_TEXT .SIX_TEXT_C{
+	position:absolute;
+	left:10px; 
+	bottom:10px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLTPro63MdEx";
+}
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_TEXT .SIX_TEXT_D{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+}
+
+
+.MIDDLE .BANNER .BANNER_img .SIX .SIX_TEXT .SIX_TEXT_D .SIX_TEXT_D_IMG{
+	width: 14px;
+	height: 14px;
+	-webkit-user-drag: none;/*图片禁止拖动*/
+}
+
+
+
+
+
+/*----------底部----------*/
+
+
+
+
+
+
+
+.BOTTOM{
+	width: 100%;
+	height: 100px;
+}
+
+.BOTTOM_BOX{
+	width: 1640px;
+	margin: 0 auto;
+	border-top: 1px solid #262626;
+	
+}
+
+.BOTTOM_BOX_LEFT{
+	width:1012px;
+	height: 100px;
+	float: left;
+	
+}
+
+.BOTTOM_BOX_LEFT_IMG{
+	width:10%;
+	height: 100px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.BOTTOM_BOX_LEFT_IMG_IMG{
+	width: 100%;	
+	-webkit-user-drag: none;/*图片禁止拖动*/
+	
+}
+
+.BOTTOM_BOX_LEFT_TEXT{
+	width:90%;
+	height: 100px;
+	float: right;	
+	padding-left: 30px;
+	box-sizing: border-box;
+	user-select: none;/*光标放置无变化*/
+}
+
+.BOTTOM_BOX_LEFT_TEXT_FIRST{
+	font-family: "SourceHanSansCN_Normal";
+}
+
+.BOTTOM_BOX_LEFT_TEXT_SECOND{
+	font-family: "SourceHanSansCN_Normal";
+}
+
+.BOTTOM_BOX_LEFT_TEXT_FIRST{
+	margin-top: 26px;
+}
+
+.BOTTOM_BOX_RIGHT{
+	width:628px;
+	height: 100px;
+	float: right;
+	position: relative;
+}
+
+.BOTTOM_BOX_RIGHT_FIRST{
+	position: absolute;
+	font-size: 24px;
+	font-family: "SourceHanSansCN_Heavy";
+	top: 30%;
+}
+
+.BOTTOM_BOX_RIGHT_SECOND{
+	position: absolute;	
+	font-size: 24px;	
+	font-family: "HelveticaNeueLTPro63MdEx";
+	top: 30%;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
